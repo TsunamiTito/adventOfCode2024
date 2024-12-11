@@ -1,0 +1,59 @@
+def main
+  input = File.new(Dir.pwd + "/Day3/dayThreeInput.txt", "r")
+  # input = File.new(Dir.pwd + "/Day3/testInput.txt", "r")
+
+  # ASCII Codes - '0' == 48 and '9' == 57
+  # Current answer is wrong ==> 183068639
+  # Maybe try extracting all completed muls out to a different list and then try computating by hand???
+  sum = 0
+  digit = ''
+  number = ""
+  number2 = ""
+
+  skipReadingNextChar = false
+
+  while !input.eof do
+    number = ""
+    number2 = ""
+    if !skipReadingNextChar
+      char = input.readchar
+      skipReadingNextChar = false
+    end
+    if char == 'm'
+      remainderOfMulFunc = ""
+      remainderOfMulFunc += input.readchar
+      remainderOfMulFunc += input.readchar
+      remainderOfMulFunc += input.readchar
+
+      # Needed to check because from() gets caught otherwise
+      if remainderOfMulFunc == "ul("
+
+        digit = input.readchar
+        while digit.ord >= 48 and digit.ord <= 57 do
+          number += digit
+          digit = input.readchar
+        end
+
+        # When previous while loop kicks out then that means you hit comma separating the two values
+        # So the next value is the start of the next number
+        digit = input.readchar
+        while digit.ord >= 48 and digit.ord <= 57 do
+          number2 += digit
+          digit = input.readchar
+        end
+      end
+    end
+
+    if digit == ')' and number.length > 0 and number2.length > 0
+      sum += (Integer(number)*Integer(number2))
+    end
+    if digit == 'm'
+      # Checks incase of mul(324,234mul(234,234)
+      skipReadingNextChar = true
+    end
+  end
+
+  puts("Part 1: The total sum is #{sum}")
+end
+
+main
