@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="" />
+    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historian_hysteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/historian_hysteria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historian_hysteria_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/historian_hysteria_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mull_it_over.py" beforeDir="false" afterPath="$PROJECT_DIR$/mull_it_over.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mull_it_over_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mull_it_over_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_queue_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/red_nosed_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/red_nosed_reports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/red_nosed_reports_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/red_nosed_reports_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +25,139 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TsunamiTito/adventOfCode2024.git",
+    "accountId": "0fe1648e-38f6-4977-99a4-9cc78506f806"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pgcyAx7dUViEPR0TiucTYMzPu2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_difference_between_whole_arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_find_difference_between_left_and_right.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_find_smallest_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_list_int.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_smallest_number_and_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_sort_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_splitting_two_lines.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_take_one_line_and_split_into_two_arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_take_string_and_transform_into_int_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_the_whole_thing.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for historian_hysteria_test.TestSum.test_whole_line_difference.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mull_it_over_test.TestMullItOver.test_find_mul.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mull_it_over_test.TestMullItOver.test_mull_over_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for mull_it_over_test.TestMullItOver.test_perform_multiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for print_queue_test.TestPrintQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_new_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_one_line.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending_or_zero.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_safe_accending.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_safe_decending.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_safety_levels.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_interprate_row.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_one_line">
+    <configuration name="Python tests for historian_hysteria_test.TestSum.test_the_whole_thing" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;historian_hysteria_test.TestSum.test_the_whole_thing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for mull_it_over_test.TestMullItOver.test_mull_over_main" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mull_it_over_test.TestMullItOver.test_mull_over_main&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for print_queue_test.TestPrintQueue" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;print_queue_test.TestPrintQueue&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for print_queue_test.TestPrintQueue.test_create_new_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;print_queue_test.TestPrintQueue.test_create_new_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for print_queue_test.TestPrintQueue.test_create_one_line" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;print_queue_test.TestPrintQueue.test_create_one_line&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_one_line" />
+        <item itemvalue="Python tests.Python tests for print_queue_test.TestPrintQueue" />
+        <item itemvalue="Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_new_page" />
+        <item itemvalue="Python tests.Python tests for historian_hysteria_test.TestSum.test_the_whole_thing" />
+        <item itemvalue="Python tests.Python tests for mull_it_over_test.TestMullItOver.test_mull_over_main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,5 +175,36 @@
       <updated>1733191411105</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/historian_hysteria_test.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/historian_hysteria_test.py</url>
+          <line>1123</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/red_nosed_reports_test.py</url>
+          <line>1074</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/historian_hysteria_test.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/print_queue_test.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
