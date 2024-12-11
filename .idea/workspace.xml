@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/historian_hysteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/historian_hysteria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/historian_hysteria_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/historian_hysteria_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mull_it_over.py" beforeDir="false" afterPath="$PROJECT_DIR$/mull_it_over.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mull_it_over_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mull_it_over_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_queue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_nosed_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/red_nosed_reports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_nosed_reports_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/red_nosed_reports_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +15,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TsunamiTito"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/TsunamiTito/adventOfCode2024.git",
@@ -174,7 +170,31 @@
       <option name="presentableId" value="Default" />
       <updated>1733191411105</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1733880195922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733880195922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
