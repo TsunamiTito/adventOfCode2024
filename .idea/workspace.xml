@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="restructuring the file structure">
-      <change afterPath="$PROJECT_DIR$/Day10/hoof_it.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/hoof_it_test.py" afterDir="false" />
+    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Day10- can now take steps 1-9 but doesn't return right value">
+      <change afterPath="$PROJECT_DIR$/Day7/bridge_repair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7/bridge_repair_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day7/brige_repair_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMELDayThree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/CMELDayThree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/print_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/print_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/print_queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/print_queue_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for brige_repair_test.TestBridgeRepair.executor": "Run",
+    "Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition.executor": "Run",
+    "Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false.executor": "Run",
+    "Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true.executor": "Run",
+    "Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_read_split_line.executor": "Run",
     "Python tests.Python tests for historian_hysteria_test.TestSum.executor": "Run",
     "Python tests.Python tests for historian_hysteria_test.TestSum.test_difference_between_whole_arrays.executor": "Run",
     "Python tests.Python tests for historian_hysteria_test.TestSum.test_find_difference_between_left_and_right.executor": "Run",
@@ -59,7 +62,7 @@
     "Python tests.Python tests for hoof_it_test.testHoofIt.test_find_array_bounds.executor": "Run",
     "Python tests.Python tests for hoof_it_test.testHoofIt.test_find_next_step.executor": "Run",
     "Python tests.Python tests for hoof_it_test.testHoofIt.test_find_trail_head.executor": "Run",
-    "Python tests.Python tests for hoof_it_test.testHoofIt.test_take_two_steps.executor": "Debug",
+    "Python tests.Python tests for hoof_it_test.testHoofIt.test_take_two_steps.executor": "Run",
     "Python tests.Python tests for mull_it_over_test.TestMullItOver.test_find_mul.executor": "Run",
     "Python tests.Python tests for mull_it_over_test.TestMullItOver.test_mull_over_main.executor": "Run",
     "Python tests.Python tests for mull_it_over_test.TestMullItOver.test_perform_multiplication.executor": "Run",
@@ -87,89 +90,89 @@
       <recent name="C:\Users\titok\PycharmProjects\PythonProject\DayTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for hoof_it_test.testHoofIt.test_take_two_steps">
-    <configuration name="Python tests for hoof_it_test.testHoofIt.test_create_map" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true">
+    <configuration name="Python tests for brige_repair_test.TestBridgeRepair" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hoof_it_test.testHoofIt.test_create_map&quot;" />
+      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for hoof_it_test.testHoofIt.test_find_array_bounds" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hoof_it_test.testHoofIt.test_find_array_bounds&quot;" />
+      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for hoof_it_test.testHoofIt.test_find_next_step" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hoof_it_test.testHoofIt.test_find_next_step&quot;" />
+      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for hoof_it_test.testHoofIt.test_find_trail_head" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hoof_it_test.testHoofIt.test_find_trail_head&quot;" />
+      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_line_is_true&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for hoof_it_test.testHoofIt.test_take_two_steps" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_read_split_line" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hoof_it_test.testHoofIt.test_take_two_steps&quot;" />
+      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_read_split_line&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for hoof_it_test.testHoofIt.test_take_two_steps" />
-        <item itemvalue="Python tests.Python tests for hoof_it_test.testHoofIt.test_find_array_bounds" />
-        <item itemvalue="Python tests.Python tests for hoof_it_test.testHoofIt.test_find_next_step" />
-        <item itemvalue="Python tests.Python tests for hoof_it_test.testHoofIt.test_find_trail_head" />
-        <item itemvalue="Python tests.Python tests for hoof_it_test.testHoofIt.test_create_map" />
+        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true" />
+        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" />
+        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition" />
+        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair" />
+        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_read_split_line" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733882241932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day10- can now take steps 1-9 but doesn't return right value">
+      <option name="closed" value="true" />
+      <created>1734489701382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734489701382</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="restructuring the folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="restructuring the folder" />
+    <MESSAGE value="Day10- can now take steps 1-9 but doesn't return right value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day10- can now take steps 1-9 but doesn't return right value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
