@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Day10- can now take steps 1-9 but doesn't return right value">
-      <change afterPath="$PROJECT_DIR$/Day7/bridge_repair.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day7/bridge_repair_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day7/brige_repair_test.py" afterDir="false" />
+    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Day7- next step fixing a bridge that is 3 steps long">
+      <change afterPath="$PROJECT_DIR$/Day16/3x3 map one valid space.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/day_16_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/raindeer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/raindeer_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/raindeer_maze_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +72,9 @@
     "Python tests.Python tests for print_queue_test.TestPrintQueue.executor": "Run",
     "Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_new_page.executor": "Run",
     "Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_one_line.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_create_raindeer.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending_or_zero.executor": "Run",
@@ -78,7 +84,8 @@
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_interprate_row.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/titok/PycharmProjects/PythonProject"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,37 +97,7 @@
       <recent name="C:\Users\titok\PycharmProjects\PythonProject\DayTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true">
-    <configuration name="Python tests for brige_repair_test.TestBridgeRepair" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map">
     <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
@@ -151,28 +128,58 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_read_split_line" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_create_raindeer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_read_split_line&quot;" />
+      <option name="_new_target" value="&quot;raindeer_maze_test.TestRaindeerMaze.test_create_raindeer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;raindeer_maze_test.TestRaindeerMaze.test_creating_new_map&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;raindeer_maze_test.TestRaindeerMaze.test_raindeer_move&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map" />
+        <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move" />
+        <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_create_raindeer" />
         <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true" />
         <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" />
-        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_built_with_addition" />
-        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair" />
-        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_read_split_line" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734489701382</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day7- next step fixing a bridge that is 3 steps long">
+      <option name="closed" value="true" />
+      <created>1736141448241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736141448241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +249,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="restructuring the folder" />
     <MESSAGE value="Day10- can now take steps 1-9 but doesn't return right value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day10- can now take steps 1-9 but doesn't return right value" />
+    <MESSAGE value="Day7- next step fixing a bridge that is 3 steps long" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day7- next step fixing a bridge that is 3 steps long" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
