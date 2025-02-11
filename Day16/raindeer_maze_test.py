@@ -1,6 +1,7 @@
 import unittest
 from distutils.dep_util import newer
 
+from Day16.direction import Direction
 from Day16.map import Maze
 from Day16.raindeer import Raindeer
 
@@ -17,7 +18,7 @@ class TestRaindeerMaze(unittest.TestCase):
         self.assertEqual(expected_y, new_raindeer.y_position)
 
     def test_raindeer_move(self):
-        map = Maze("3x3 map one valid space.txt")
+        map = Maze("open map.txt")
         expected_ending_x = 3
         expected_ending_y = 4
 
@@ -45,6 +46,8 @@ class TestRaindeerMaze(unittest.TestCase):
     def test_map_get_element(self):
         new_maze = Maze("3x3 map one valid space.txt")
 
+        print(new_maze.maze[0])
+
         self.assertEqual(".", new_maze.get_element(1,1))
         self.assertEqual("#", new_maze.get_element(0,0))
         self.assertEqual(None, new_maze.get_element(-1,0))
@@ -53,7 +56,16 @@ class TestRaindeerMaze(unittest.TestCase):
         self.assertEqual(None, new_maze.get_element(0,4))
 
 
+    def test_bounds_of_map(self):
+        new_maze = Maze("4x3 map.txt")
 
+        self.assertEqual(None, new_maze.get_element(3,0))
+        self.assertEqual(None, new_maze.get_element(0,4))
+
+    def test_raindeer_direction(self):
+        new_direction = Direction("N")
+
+        self.assertEqual("N", new_direction.direction)
 
     def test_take_one_step(self):
         one_step_maze = Maze("one step map.txt")

@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Day7- next step fixing a bridge that is 3 steps long">
-      <change afterPath="$PROJECT_DIR$/Day16/3x3 map one valid space.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/day_16_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/raindeer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/raindeer_maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/raindeer_maze_test.py" afterDir="false" />
+    <list default="true" id="67b5e6f4-7cfd-495b-8cbc-c3a6a92e95f6" name="Changes" comment="Day 16 - map can get elements of specific row and columns.">
+      <change afterPath="$PROJECT_DIR$/Day16/4x3 map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/direction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/raindeer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/raindeer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/raindeer_maze_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/raindeer_maze_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +71,14 @@
     "Python tests.Python tests for print_queue_test.TestPrintQueue.executor": "Run",
     "Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_new_page.executor": "Run",
     "Python tests.Python tests for print_queue_test.TestPrintQueue.test_create_one_line.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_bounds_of_map.executor": "Run",
     "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_create_raindeer.executor": "Run",
     "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_map_get_element.executor": "Run",
     "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_take_one_step.executor": "Run",
+    "Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_take_one_step_north.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending.executor": "Run",
     "Python tests.Python tests for red_nosed_reports_test.TestRedNosedReports.test_check_only_ascending_or_descending_or_zero.executor": "Run",
@@ -85,7 +89,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/titok/PycharmProjects/PythonProject"
+    "last_opened_file_path": "C:/Users/titok/PycharmProjects/TDDXunit"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,34 +101,19 @@
       <recent name="C:\Users\titok\PycharmProjects\PythonProject\DayTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map">
-    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_bounds_of_map">
+    <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_bounds_of_map" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;brige_repair_test.TestBridgeRepair.test_line_is_true&quot;" />
+      <option name="_new_target" value="&quot;raindeer_maze_test.TestRaindeerMaze.test_bounds_of_map&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -158,6 +147,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_map_get_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;raindeer_maze_test.TestRaindeerMaze.test_map_get_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="ENV_FILES" value="" />
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_bounds_of_map" />
+        <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_map_get_element" />
         <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_creating_new_map" />
         <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_raindeer_move" />
         <item itemvalue="Python tests.Python tests for raindeer_maze_test.TestRaindeerMaze.test_create_raindeer" />
-        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_line_is_true" />
-        <item itemvalue="Python tests.Python tests for brige_repair_test.TestBridgeRepair.test_bridge_with_one_step_false" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736141448241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 16 - created a raindeer and it can move, but now i need to create a map and put the raindeer on the map">
+      <option name="closed" value="true" />
+      <created>1737605579189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737605579189</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 16 - map can get elements of specific row and columns.">
+      <option name="closed" value="true" />
+      <created>1737946620222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737946620222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +270,9 @@
     <MESSAGE value="restructuring the folder" />
     <MESSAGE value="Day10- can now take steps 1-9 but doesn't return right value" />
     <MESSAGE value="Day7- next step fixing a bridge that is 3 steps long" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day7- next step fixing a bridge that is 3 steps long" />
+    <MESSAGE value="Day 16 - created a raindeer and it can move, but now i need to create a map and put the raindeer on the map" />
+    <MESSAGE value="Day 16 - map can get elements of specific row and columns." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 16 - map can get elements of specific row and columns." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,6 +311,11 @@
           <url>file://$PROJECT_DIR$/Day10/hoof_it_test.py</url>
           <line>106</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day16/raindeer_maze_test.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
